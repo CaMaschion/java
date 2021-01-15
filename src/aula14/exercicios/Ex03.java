@@ -11,12 +11,12 @@ public class Ex03 {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Digite uma letra: ");
-        String sexo = scan.next();
+        System.out.println("Digite uma letra (F ou M): ");
+        String input = scan.next();
 
-        if ( sexo.equalsIgnoreCase("F")) {
+        if ( input.equalsIgnoreCase("F")) {
             System.out.println("feminina");
-        } else if (sexo.equalsIgnoreCase("M")) {
+        } else if (input.equalsIgnoreCase("M")) {
             System.out.println("masculino");
         } else {
             System.out.println("sexo inválido");

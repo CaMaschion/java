@@ -1,6 +1,5 @@
 package aula14.exercicios;
 
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
 import java.util.Scanner;
 
 public class Ex01 {

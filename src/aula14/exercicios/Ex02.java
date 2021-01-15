@@ -13,7 +13,7 @@ public class Ex02 {
         System.out.println("Digite um número: ");
         int num1 = scan.nextInt();
 
-        if (num1 > 0) {
+        if (num1 >= 0) {
             System.out.println("o " + num1 + " é positivo");
         } else {
             System.out.println("o " + num1 + " é negativo");
